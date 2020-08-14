@@ -1,0 +1,86 @@
+/* Setting a professional header. */
+header {
+  text-align: center;
+  background-color: darkgreen;
+}
+nav a:hover {
+  color: cyan;
+}
+
+/* All of the headers aligning. */
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+/* Page coloring. */
+body {
+  background-color: darkgoldenrod;
+}
+
+/* Per-page formatting. */
+.WelcomeScrollingText{
+  font-size: 48px;
+}
+.SurveySection {
+  text-align: center;
+}
+.ScrollingDonateText {
+  font-size: 48px;
+}
+.ContactForm {
+  text-align: center;
+}
+
+/* Fun! */
+#Clicker {
+  display: block;
+  border: none;
+  background-color: yellow;
+  font-weight: bold;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+#ColorPicker {
+  display: block;
+  border: none;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 30px auto;
+  border-radius: 30px;
+}
+
+/* Coloring the images. */
+#CodeImg {
+  height: 250px;
+  width: 250px;
+}
+#SandboxImg {
+  margin: 20px;
+  border: 4px solid darkgoldenrod;
+  border-radius: 20px;
+}
+img:hover {
+  box-shadow: 0 0 10px 10px black;
+  margin: 20px;
+  border-radius: 30px;
+  background-color: cyan;
+}
+
+/* Color the footer. */
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
